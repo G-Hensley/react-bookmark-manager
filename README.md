@@ -1,47 +1,81 @@
-# 🔄 Miles-Kilometers Converter
+# Bookmark Manager
 
-## A Unit Conversion Tool with a GUI
+A modern, responsive web application for managing your bookmarks with categories. Built with React, TypeScript, and Tailwind CSS.
 
-A practical application for converting between imperial and metric distance measurements. Useful for travelers, runners, or anyone working with international distance units.
+## Features
 
-## 🔍 What This Tool Does
+- Add bookmarks with title, URL, and category
+- Dark mode support
+- Responsive design
+- Modern UI with Tailwind CSS
+- Type-safe development with TypeScript
 
-This application provides quick conversion between miles and kilometers with a clean, straightforward interface. Helpful for:
+## Tech Stack
 
-- ✈️ International travelers planning routes
-- 🏃 Runners tracking distances across different apps and devices
-- 🌎 Anyone needing to translate between imperial and metric measurements
+- React 19
+- TypeScript
+- Tailwind CSS
+- Vite
 
-## ⚙️ Features
+## Prerequisites
 
-- **Bidirectional Conversion**: Switch between miles-to-km and km-to-miles
-- **Immediate Results**: View conversions as soon as you enter values
-- **Input Validation**: Handles incorrect inputs gracefully
-- **Keyboard Support**: Use Enter key for quick conversions
-- **Clean Interface**: Minimalist design focused on functionality
+- Node.js (version 16 or higher)
+- npm or yarn
 
-## 📝 How to Use
+## Getting Started
 
-1. Run `main.py`
-2. Enter a value in the input field
-3. Click "Calculate" or press Enter
-4. View the converted value
-5. Click "Switch Direction" to change conversion mode
+1. Clone the repository:
 
-## 📋 Requirements
+```bash
+git clone https://github.com/yourusername/bookmark-manager.git
+cd bookmark-manager
+```
 
-- Python 3.x
-- Tkinter (included with standard Python installation)
+2. Install dependencies:
 
-## 💡 Interesting Notes
+```bash
+npm install
+# or
+yarn install
+```
 
-- The mile-to-kilometer conversion factor is precisely 1.609344
-- The metric system is used by most countries worldwide, with only the US, Liberia, and Myanmar officially using imperial units
-- The kilometer was introduced as part of the metric system during the 1790s
-- Many scientific and technical fields use metric measurements exclusively, even in countries that otherwise use imperial units
+3. Start the development server:
 
-## 🔧 About This Project
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-A practical Python application demonstrating GUI development with Tkinter and unit conversion logic.
+4. Open your browser and navigate to `http://localhost:5173`
 
-Happy converting! 🚶‍♂️↔️🚴‍♀️
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Project Structure
+
+```
+bookmark-manager/
+├── src/
+│   ├── components/     # React components
+│   ├── context/       # React context providers
+│   └── ...
+├── public/           # Static assets
+└── ...
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
